@@ -74,7 +74,5 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest"
-  },
-  "repository": "SrezonAhmed/generator-basefront",
-  "license": "GPL-3.0"
+  }
 }
