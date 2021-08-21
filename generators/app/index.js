@@ -54,7 +54,8 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath('package-lock.json'), this.destinationPath('package-lock.json')
     );
-    this.fs.copy(this.templatePath('app'), this.destinationPath('app'));
+    /*this.fs.copy(this.templatePath('app/templates'), this.destinationPath('app/templates'));*/
+    this.fs.copy(this.templatePath('**/*'), this.destinationPath('project'));
   }
 
   end() {
