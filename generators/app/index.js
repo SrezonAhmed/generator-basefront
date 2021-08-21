@@ -43,7 +43,7 @@ module.exports = class extends Generator {
       this.templatePath('js/script.js'), this.destinationPath('js/script.js')
     );
     this.fs.copy(
-      this.templatePath('js/template.js'), this.destinationPath('js/template.js')
+      this.templatePath('js/templates.js'), this.destinationPath('js/templates.js')
     );
     this.fs.copy(
       this.templatePath('_gitignore'), this.destinationPath('.gitignore')
