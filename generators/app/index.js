@@ -22,22 +22,22 @@ module.exports = class extends Generator {
       this.templatePath('scss/style.scss'), this.destinationPath('scss/style.scss')
     );
     this.fs.copy(
-      this.templatePath('scss/._core.scss'), this.destinationPath('scss/._core.scss')
+      this.templatePath('scss/._core.scss'), this.destinationPath('scss/_core.scss')
     );
     this.fs.copy(
-      this.templatePath('scss/._navbar.scss'), this.destinationPath('scss/._navbar.scss')
+      this.templatePath('scss/._navbar.scss'), this.destinationPath('scss/_navbar.scss')
     );
     this.fs.copy(
-      this.templatePath('scss/._footer.scss'), this.destinationPath('scss/._footer.scss')
+      this.templatePath('scss/._footer.scss'), this.destinationPath('scss/_footer.scss')
     );
     this.fs.copy(
-      this.templatePath('scss/._colours.scss'), this.destinationPath('scss/._colours.scss')
+      this.templatePath('scss/._colours.scss'), this.destinationPath('scss/_colours.scss')
     );
     this.fs.copy(
-      this.templatePath('scss/._buttons.scss'), this.destinationPath('scss/._buttons.scss')
+      this.templatePath('scss/._buttons.scss'), this.destinationPath('scss/_buttons.scss')
     );
     this.fs.copy(
-      this.templatePath('scss/._media.scss'), this.destinationPath('scss/._media.scss')
+      this.templatePath('scss/._media.scss'), this.destinationPath('scss/_media.scss')
     );
     this.fs.copy(
       this.templatePath('js/script.js'), this.destinationPath('js/script.js')
