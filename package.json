@@ -2,7 +2,7 @@
   "name": "generator-basefront",
   "version": "0.0.0",
   "description": "basic frontend files using html, css, sass, and js",
-  "homepage": "C:\\Users\\srezo\\WebstormProjects",
+  "homepage": "https://github.com/SrezonAhmed/generator-basefront",
   "author": {
     "name": "Srezon",
     "email": "srezona@gmail.com",
@@ -74,5 +74,6 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest"
-  }
+  },
+  "repository": "SrezonAhmed/generator-basefront"
 }
